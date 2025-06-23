@@ -28,6 +28,14 @@ src/
 ├── model/
 ├── gui/
 
+## 📷 Screenshots
+
+### 🔐 Login Screen
+![Login](screenshots/Login.png)
+
+### 📊 User Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
 
 ## 📊 DB Setup
 
@@ -42,12 +50,5 @@ CREATE TABLE users (
     balance DOUBLE DEFAULT 0
 );
 
-## 📷 Screenshots
-
-### 🔐 Login Screen
-![Login](screenshots/Login.png)
-
-### 📊 User Dashboard
-![Dashboard](screenshots/Dashboard.png)
 
 
