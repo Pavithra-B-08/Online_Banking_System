@@ -22,6 +22,25 @@ This is a simple **Java-based banking system** that allows users to register, lo
 4. Run `LoginForm.java` to start UI
 
 ## 📂 Structure
+src/
+├── com.bank.db/
+├── dao/
+├── model/
+├── gui/
 
-# Online_Banking_System
+
+## 📊 DB Setup
+
+```sql
+CREATE DATABASE bankdb;
+USE bankdb;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(100) UNIQUE,
+    password VARCHAR(100),
+    balance DOUBLE DEFAULT 0
+);
+
+
 
