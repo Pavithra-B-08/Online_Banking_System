@@ -28,14 +28,6 @@ src/
 ├── model/
 ├── gui/
 
-## 📷 Screenshots
-
-### 🔐 Login Screen
-![Login](screenshots/Login.png)
-
-### 📊 User Dashboard
-![Dashboard](screenshots/Dashboard.png)
-
 
 ## 📊 DB Setup
 
